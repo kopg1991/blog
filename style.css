@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root{
+    --mainColor: #11141a;
+    --navBar: #24252A;
+}
+*{
+    font-family: 'Open Sans', sans-serif;  
+}
+body{
+    height: 100vh;
+    position: relative;
+    background-color: rgb(234, 236, 239);
+}
+
+ /* navbar bootstrap */
+ .navBar{
+    background-color: var(--mainColor);;
+}
+.menuRight{
+    margin-right: 100%;
+}
+.navbar-toggler {
+   border-color: #74c1d4;
+}
+li, a, button{
+    font-weight: 600px;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto ;
+    width: 200px;
+    height: auto;
+}
+
+/* Main body */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+h1{
+    margin-top: 15px;
+    line-height: 130% ;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Media queries  */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+     .container{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+   h1{
+       font-size: 0.9rem;
+       text-align: center;
+       margin-top: 10px;
+   }
+   img{
+       width: 80%;
+   }
+}
+@media (min-width: 500px){
+    img{
+        width: 60%;
+    }
+}
+
+ /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    img{
+        width: 50%;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+   .container{
+    flex-direction: row;  
+}
+   h1{
+       margin-top: 40px;
+       font-size: 1.5rem;
+   } 
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+
+} */
+
+
+ 
