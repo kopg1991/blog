@@ -1,0 +1,81 @@
+:root{
+    --navBar: #11141a;
+    --backColor:rgb(234, 236, 239);
+    --navLinks: #f5cb5c;
+}  
+*{
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.active{
+    color: var(--navLinks); 
+}
+nav a:hover{ 
+    color: var(--navLinks); 
+} 
+body{
+    font-size: 1em;
+    line-height: 1.65;
+    margin: 0; 
+    width: 100vp;
+}
+
+/*Container & Content  */
+.container{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    text-align: center; 
+    margin-top: 40px;
+   
+}
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.titleContent{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: solid 3px var(--navLinks);
+}
+.titleLibrary{
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: left;
+
+}
+strong{
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1rem;
+    float: left;
+}
+.displayContent{
+    margin-top: 60px;
+    text-align: left;
+    border-bottom: solid 3px var(--navLinks);
+    text-decoration: none;
+}
+p{
+    margin-top: 15px;
+    text-align: left;
+}
+.subTitle{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.titleAnchor{
+    color: black;
+    font-size: 1.30rem;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root{
-    --mainColor: #11141a;
-    --navBar: #24252A;
+    --navBar: #11141a;
+    --backColor:rgb(234, 236, 239);
+    --navLinks: #f5cb5c;
 }
 *{
     font-family: 'Open Sans', sans-serif;  
@@ -10,18 +11,18 @@
 body{
     height: 100vh;
     position: relative;
-    background-color: rgb(234, 236, 239);
+    background-color: var(--backColor);
 }
 
  /* navbar bootstrap */
  .navBar{
-    background-color: var(--mainColor);;
+    background-color: var(--navBar);
 }
 .menuRight{
     margin-right: 100%;
 }
 .navbar-toggler {
-   border-color: #74c1d4;
+   border-color:var(--navLinks);
 }
 li, a, button{
     font-weight: 600px;
@@ -35,6 +36,14 @@ li, a, button{
     margin-right: auto ;
     width: 200px;
     height: auto;
+}
+nav a:hover{ 
+    color: var(--navLinks); 
+} 
+
+/* quita la parte de onclick en el hamburger */
+.navbar-toggler:focus{
+    outline: var(--navLinks);
 }
 
 /* Main body */
