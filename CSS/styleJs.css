@@ -79,3 +79,15 @@ a:hover{
     text-decoration: none;
     color: black;
 }
+.titleTable{
+    display: grid;
+    grid-template-columns:repeat(auto-fill , minmax(200px,1fr)); 
+    grid-template-rows: repeat(4,1fr);
+}
+.tableItem{
+text-align: center;
+cursor: pointer;
+}
+.tableItem:hover{
+    text-decoration: underline;
+}
