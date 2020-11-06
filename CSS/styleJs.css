@@ -56,7 +56,7 @@ strong{
     float: left;
 }
 .displayContent{
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: left;
     border-bottom: solid 3px var(--navLinks);
     text-decoration: none;
