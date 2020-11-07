@@ -69,6 +69,33 @@ h1{
     font-size: 2rem;
     font-weight: bold;
 }
+/* buttons  */
+.btn-scroll{
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:var(--navBar); /* Set a background color */
+    color: var(--navLinks); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    outline: none; /* Make blue line disable*/
+  }
+  .btn-scroll:focus {outline:0;}
+  
+  .btn-scroll:hover {
+    background-color: #2c2f35; /* Add a dark-grey background on hover */
+  }
+  .btn-scroll:active { 
+      transform: scale(0.98); 
+  }
+  
+
+
 /* Media queries  */
 
  /* Small devices (landscape phones, 576px and up) */
@@ -85,6 +112,7 @@ h1{
    img{
        width: 80%;
    }
+
 }
 @media (min-width: 500px){
     img{
@@ -117,5 +145,3 @@ h1{
 
 } */
 
-
- 
