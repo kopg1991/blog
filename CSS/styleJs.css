@@ -81,8 +81,8 @@ a:hover{
 }
 .titleTable{
     display: grid;
-    grid-template-columns:repeat(auto-fill , minmax(200px,1fr)); 
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns:repeat(auto-fill , minmax(150px,1fr)); 
+    grid-template-rows: repeat(3,1fr);
 }
 .tableItem{
 text-align: center;
