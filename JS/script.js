@@ -1,3 +1,5 @@
+'use strict';
+
 const btnScroll = document.querySelector('.btn-scroll');
 
 window.addEventListener('scroll', scrollFunction);
