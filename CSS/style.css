@@ -16,7 +16,9 @@ body{
 
  /* navbar bootstrap */
  .navBar{
+     padding: 3px;
     background-color: var(--navBar);
+    
 }
 .menuRight{
     margin-right: 100%;
