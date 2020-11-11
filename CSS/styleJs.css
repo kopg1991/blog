@@ -43,7 +43,7 @@ h1{
     border-bottom: solid 3px var(--navLinks);
 }
 .titleLibrary{
-    margin-top: 40px;
+    margin-top: 20px;
     font-weight: bold;
     text-align: left;
 
@@ -73,7 +73,7 @@ p{
 }
 .titleAnchor{
     color: black;
-    font-size: 1.30rem;
+    font-size: 1rem;
 }
 a:hover{
     text-decoration: none;
@@ -81,7 +81,7 @@ a:hover{
 }
 .titleTable{
     display: grid;
-    grid-template-columns:repeat(auto-fill , minmax(150px,1fr)); 
+    grid-template-columns:repeat(auto-fill , minmax(120px,1fr)); 
     grid-template-rows: repeat(3,1fr);
 }
 .tableItem{
