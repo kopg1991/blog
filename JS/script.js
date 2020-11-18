@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-const btnScroll = document.querySelector('.btn-scroll');
+const btnScroll = document.querySelector(".btn-scroll");
 
-window.addEventListener('scroll', scrollFunction);
+window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -12,8 +12,10 @@ function scrollFunction() {
   }
 }
 
-
-btnScroll.addEventListener('click',() =>{
-    document.body.scrollTop = 0; // For Safari
+btnScroll.addEventListener("click", () => {
+  document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} )
+});
+
+
+
