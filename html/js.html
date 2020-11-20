@@ -44,8 +44,8 @@
         <h3 class="titleLibrary tableItem"> <a href="#useStrict" class="titleAnchor">'use strict'</a></h3>
         <h3 class="titleLibrary tableItem"> <a href="#variables" class="titleAnchor">Variables</a></h3>
         <h3 class="titleLibrary tableItem"> <a href="#dataTypes" class="titleAnchor">Data Types</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="js.html" class="titleAnchor"> String and Template literals</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="#dataTypes" class="titleAnchor">React</a></h3>
+        <h3 class="titleLibrary tableItem"> <a href="#typeConversion" class="titleAnchor">Type Conversion</a></h3>
+        <h3 class="titleLibrary tableItem"> <a href="#functions" class="titleAnchor">Functions</a></h3>
         <h3 class="titleLibrary tableItem"> <a href="#dataTypes" class="titleAnchor">API</a></h3>
     </div>
 
@@ -99,7 +99,28 @@
     <p class="subTitle">Objects</p>
     <p>The <code>object</code> is different. All the other types are called "primitive"
     because they can only have one thing. Objects can store collections of data and more complex entities. </p>
-
+    <h3 class="displayContent" id="typeConversion">Type Conversions:</h3>
+    <p>Almost every time operators and functions automatically converts the given value to the right type.
+      Sometimes we need to explicitly convert the value. </p>
+      <p class="subTitle">String Conversion</p>
+      <p>Occurs when we output something. can be performed with <code>String(value)</code>.
+      The conversion to string is usually obvious for primitive values.</p>
+      <p class="subTitle">Numeric Conversion</p>
+      <p>Occurs in math operations. Can be performed with <code>Numeric(Value)</code>.</p>
+      <p class="subTitle">Boolean Conversion</p>
+      <p>Occurs in logical operations. Can be performed with <code>Boolean(value)</code>.</p>
+      <h3 class="displayContent" id="functions">Functions:</h3>
+      <p>Functions are the main building blocks of the program. They allow the code to be called many times.
+        Functions are values, they can be assigned, copied or declared in any place of the code. If the function is declared 
+        as a separate statement in the main code flow, thats called a "Function declaration". If the function is created as a part of 
+        an expression is called "Function expression". <b> Function declaration are processed before the code block is executed.
+        They are visible everywhere in the block.</b> </p>
+      <p class="subTitle">Outer Variable</p>
+      <p>If a same name variable is declared inside a function then is shadow(local is better lol) the outer one.</p>
+      <p class="subTitle">Default values/p>
+      <p>If a parameter is not provided then the value become undefined. </p>
+      <p class="subTitle">Return Value</p>
+      <p>A function can return a value back into the calling code as the result. If it doesn't, the result is <code>undefined</code>.</p>
 
       <button class="btn-scroll"><i class="fa fa-arrow-up fa-1x"></i></button>
     </div>
