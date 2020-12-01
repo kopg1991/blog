@@ -42,18 +42,17 @@
    
     <div class="titleTable">
         <h3 class="titleLibrary tableItem"> <a href="#objBasic" class="titleAnchor">Obj basic</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="#in" class="titleAnchor">in</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="#dataTypes" class="titleAnchor">Data Types</a></h3>
+        <h3 class="titleLibrary tableItem"> <a href="#objRef" class="titleAnchor">Object Reference</a></h3>
         <h3 class="titleLibrary tableItem"> <a href="#typeConversion" class="titleAnchor">Type Conversion</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="#functions" class="titleAnchor">Functions</a></h3>
-        <h3 class="titleLibrary tableItem"> <a href="#dataTypes" class="titleAnchor">API</a></h3>
+        <h3 class="titleLibrary tableItem"> <a href="#garbageCollect" class="titleAnchor">Garbage Collection</a></h3>
+        <h3 class="titleLibrary tableItem"> <a href="#this" class="titleAnchor">"this"</a></h3>
     </div>
 
    <h3 class="displayContent" id="objBasic">Obj basic</h3>
     <p>Object are use to store data and more complex entities. A properties is a "Key: value" pair, where the key is a string
         also called <b>property name</b> and value can be anything.Square brackets are mush more powerful than dot notation. </p>
     <p class="subTitle">in:</p>
-    <p>You can use the <code>in</code> operator and it will help you if you have a propertie in a obj.</p>
+    <p>You can use the <code>in</code> operator and it will help you if you have a properties in a obj.</p>
     <p><code>let user = { name:"Juan", age:"30")</code></p>
     <p><code> alert("age in user")// true, user exists</code></p>
     <p><code> alert("blabla" in user) // false</code></p>
@@ -61,6 +60,25 @@
     <p><code>for (key in object) {</code></p>
     <p><code>// executes the body for each key among object properties</code></p>
     <p><code> }</code></p>
+    <h3 class="displayContent" id="objRef">Object Reference</h3>
+    <p>Objects are assigned and copied by reference. in other word, a variable stores not the 
+      "object value" but a "reference"(address in the hemp or memory) for the value. So copying
+      such a variable or passing it as a function arguments copies the reference , not the object.</p>
+    <h3 class="displayContent" id="garbageCollect">Garbage Collection</h3>
+    <ul>
+      <li class="infoLi">Garbage collection is performed automatically.</li>
+      <li class="infoLi">Object are retained in memory while they are reachable.</li>
+      <li class="infoLi">Being referenced is not the same as being reachable. A pack of interlinked 
+        objects can become unreachable a whole. </li>
+    </ul>
+    <h3 class="displayContent" id="this">"this"</h3>
+    <li class="infoLi">Methods can reference the object as <code>this</code></li>
+    <li class="infoLi"> When a function is declared, it may use <code>this</code>, but that
+    has no value until the function is called.</li>
+    <li class="infoLi">A function can be copied between objects.</li>
+    <li class="infoLi"><b>Arrow function are special: they have no <code>this</code>. 
+      When <code>this</code> is accessed inside an arrow function, is taken from the outside.</b></li>
+
     
 
       <button class="btn-scroll"><i class="fa fa-arrow-up fa-1x"></i></button>
