@@ -91,3 +91,9 @@ cursor: pointer;
 .tableItem:hover{
     text-decoration: underline;
 }
+.infoLi{
+    color: #11141a;
+    text-align: left;
+    list-style: circle ;
+    line-height: 1.75em;
+}
